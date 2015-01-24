@@ -2,12 +2,12 @@
 ## If the inverse is not present in cache then calculate the inverse of the matrix
 ## and place it in the cache for future reference.
 
-#name       : makeVector 
+#name       : makeCacheMatrix 
 #description: Get a vector of the matrix
 #i/p param  : matrix x
 #o/p param  : numeric vector
 
-makeVector <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
 
         i <- NULL                                   #initially setting the inverse of the matrix to NULL
         set <- function(y) {
